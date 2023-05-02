@@ -11,6 +11,6 @@
     "wait-port": "^1.0.4"
   },
   "scripts": {
-    "test": "rm -f ./pacts/*.json && vitest run"
+    "test": "rm -f ./pacts/*.json && vitest run --no-threads --silent --reporter dot"
   }
 }

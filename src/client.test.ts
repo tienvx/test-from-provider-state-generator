@@ -7,6 +7,7 @@ const pact = new PactV3({
     dir: `${__dirname}/../pacts`,
     consumer: 'MyConsumer',
     provider: 'MyProvider',
+    logLevel: 'debug',
     spec: SpecificationVersion.SPECIFICATION_VERSION_V4,
 });
 
